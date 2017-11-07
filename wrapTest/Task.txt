@@ -1,0 +1,15 @@
+1. Install python-dev by using follow command:
+        sudo apt-get install python-dev
+2. Create C/C++ source files. In here, I create C++ file with ext.cpp name.
+        - Create function in C++ file
+        - Create API function (Python <---> C++)
+        - Declare functions list
+        - Define initialize function
+3. Create setup.py file.
+4. Put all of them together in a folder
+5. Run command:
+        sudo python setup.py build
+        sudo python setup.py install
+6. Finally, run python and using that module.
+        python
+        ext.ext_Prime(5)
