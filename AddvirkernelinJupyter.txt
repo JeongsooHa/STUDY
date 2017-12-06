@@ -1,0 +1,15 @@
+$ jupyter --paths
+
+가상환경 활성화한 후
+$ which python
+
+$ pip install ipykernel
+
+$ mkdir Jupyter_path/kernels/tensorflow
+
+{
+ "argv": [ "which python 결과", "-m", "ipykernel",
+          "-f", "{connection_file}"],
+ "display_name": "tensorflow",
+ "language": "python"
+}
