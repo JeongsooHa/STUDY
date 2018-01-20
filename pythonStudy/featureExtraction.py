@@ -46,6 +46,7 @@ finalIndex = qq.readline().split(" ")
 print(finalIndex[0])
 
 for filenumber in folder_list[int(finalIndex[0]):]:
+    print(str(folder_list.index(filenumber)))
     mypath = "/Users/jeongsooha/20bn-datasets/20bn-jester-v1/"+filenumber+"/"
     image_list = listdir(mypath)
     print(filenumber)
